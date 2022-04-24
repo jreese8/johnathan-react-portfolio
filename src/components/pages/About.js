@@ -2,16 +2,47 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <body>
+
+      {/* <div id="root">
+    
+        <div class="App"> */}
+
+            {/* <div id="About"> */}
+
+              <section id="AboutContainer">
+
+                <div id="meImg">
+
+                  <img src="../../assets/images/me.JPG"width="350" height="450" alt="Johnathan Reese"></img>
+
+                </div>
+
+                  <div id="AboutText">
+
+                    <h1>About Me</h1>
+                        <br/>
+                        <p>
+                          Hello! I am new to coding and excited for this new change!
+                          I was initially studying veterinary medicine in Saint Kitts, an island in the Caribbean, which is shown in the image above.
+                        </p>
+                        <br/>
+                        <p>
+                          I was only three months into the program when the COVID pandemic hit.
+                          Due to the difficulties of international travel and the unforeseeable end of the pandemic,
+                          I have made the switch from studying medicine to studying code. It was a bit daunting making this huge leap, but I have always loved video games and had interest in computer programming.
+                        </p>
+
+                  </div>
+
+              </section>
+
+            {/* </div>
+
+        </div>
+
+      </div> */}
+
+  </body>
   );
 }
