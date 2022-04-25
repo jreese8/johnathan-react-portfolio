@@ -1,11 +1,9 @@
 import React from 'react';
-import cctImage from '../../assets/images/cct.png';
-import soeImage from '../../assets/images/soe.png';
-function Portfolio() {
+import meImage from '../../assets/images/me.JPG';
+function About() {
   return (
     <section className="my-5">
-      <img src={cctImage} className="my-2" style={{ width: "100%" }} alt="Cocky Cocktails" />
-      <img src={soeImage} className="my-2" style={{ width: "100%" }} alt="Stack Overeats" />
+      <img src={meImage} className="my-2" style={{ width: "50%" }} alt="Johnathan Reese" />
       <div className="my-2">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
@@ -21,4 +19,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default About;
