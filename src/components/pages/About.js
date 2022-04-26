@@ -2,9 +2,9 @@ import React from 'react';
 import meImage from '../../assets/images/me.JPG';
 function About() {
   return (
-    <section className="my-5">
-      <img src={meImage} className="my-2" style={{ width: "50%" }} alt="Johnathan Reese" />
-      <div className="my-2">
+    <section className="aboutSection">
+      <img src={meImage} style={{ width: "50%" }} alt="Johnathan Reese" />
+      <div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex
           condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna
