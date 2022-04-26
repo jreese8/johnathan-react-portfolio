@@ -11,8 +11,8 @@
   
 
   ## Website
-
+  https://jreese8.github.io/johnathan-react-portfolio/
 
 
   ## Screenshot
-    <img src="./src/assets/images/reactSC.png">
+  <img src="./src/assets/images/reactSC.png">
