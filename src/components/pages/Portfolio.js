@@ -17,30 +17,30 @@ function Portfolio() {
   return (
     <section className="section">
 
-      <div className="portImages">
+      <div>
 
         <a href="https://github.com/whosshazo/cocktail-project">
-          <img src={cctImage} style={{ width: "50%" }} alt="Cocky Cocktails" />
-        </a>
-
-        <a href="https://github.com/Haguermeister/stack-overeats">
-          <img src={soeImage} style={{ width: "50%" }} alt="Stack Overeats" />
+          <img src={cctImage} className="portImg" alt="Cocky Cocktails" />
         </a>
 
         <a href="https://github.com/jreese8/Password-Generator">
-          <img src={passImage} style={{ width: "50%" }} alt="Password Generator" />
+          <img src={passImage} className="portImg" alt="Password Generator" />
         </a>
 
-        <a href="https://github.com/jreese8/Work-Day-Scheduler">
-          <img src={wdsImage} style={{ width: "50%" }} alt="Work Day Scheduler" />
-        </a>
-        
-        <a href="https://github.com/jreese8/note-taker">
-          <img src={noteImage} style={{ width: "50%" }} alt="Note Taker" />
+        <a href="https://github.com/Haguermeister/stack-overeats">
+          <img src={soeImage} className="portImg" alt="Stack Overeats" />
         </a>
 
         <a href="https://github.com/jreese8/PWA-Budget-Tracker">
-          <img src={pwaImage} style={{ width: "50%" }} alt="Budget Tracker" />
+          <img src={pwaImage} className="portImg" alt="Budget Tracker" />
+        </a>
+
+        <a href="https://github.com/jreese8/Work-Day-Scheduler">
+          <img src={wdsImage} className="portImg" alt="Work Day Scheduler" />
+        </a>
+        
+        <a href="https://github.com/jreese8/note-taker">
+          <img src={noteImage} className="portImg" alt="Note Taker" />
         </a>
 
       </div>

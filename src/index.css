@@ -97,6 +97,7 @@ button {
   cursor: pointer;
   margin: 0 1px;
   background-color: var(--green);
+  color: var(--white);
 }
 
 button:hover {
@@ -108,7 +109,7 @@ button[disabled] {
   opacity: 0.8;
 }
 
-.portImages {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
+.portImg {
+  margin: 20px;
+  border: 10px solid var(--green);
 }
