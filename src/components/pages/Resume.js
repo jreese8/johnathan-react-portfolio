@@ -14,7 +14,7 @@ function Resume() {
         <p>
             Phone: 804-413-1081 | Email: JohnathanReese8@gmail.com | Gloucester, VA, 23061
             <br/>
-            LinkedIn: /johnathan-reese | Portfolio: /Johnathan-Reese-Portfolio | GitHub: /jreese8
+            <a href="https://docs.google.com/document/d/1fw38aLznuq_co9NbTe-_YbejZYk5FNsRC2RADV7vpZ4/edit?usp=sharing">Resume</a> | <a href="www.linkedin.com/in/johnathan-reese-2892a3235">LinkedIn</a> | <a href="https://jreese8.github.io/johnathan-react-portfolio/">Portfolio</a> | <a href="https://github.com/jreese8">GitHub</a>
             <br/>
             <br/>
             Full-Stack web developer with a passion for designing responsive and appealing websites. 
