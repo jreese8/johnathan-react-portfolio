@@ -8,7 +8,6 @@
   --blue: #64abdf;
   --green: #22784b;
   --white: #fff;
-  --border-radius: 8px;
  }
  
  * {
@@ -50,8 +49,9 @@ h6 {
   line-height: 1.25;
 }
 
-.nav-item {
+.nav {
   background-color: var(--blue);
+  color: var(--green);
 }
 
 nav a:hover {
