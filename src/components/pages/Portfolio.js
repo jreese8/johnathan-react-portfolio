@@ -2,7 +2,7 @@ import React from 'react';
 
 import cctImage from '../../assets/images/cct.png';
 import soeImage from '../../assets/images/soe.png';
-import passImage from '../../assets/images/PassSC.png';
+import hsscImage from '../../assets/images/hssc.png';
 import wdsImage from '../../assets/images/WDSsc.png';
 import noteImage from '../../assets/images/notesc.png';
 import pwaImage from '../../assets/images/pwabt.png';
@@ -23,8 +23,8 @@ function Portfolio() {
           <img src={cctImage} className="portImg" alt="Cocky Cocktails" />
         </a>
 
-        <a href="https://github.com/jreese8/Password-Generator">
-          <img src={passImage} className="portImg" alt="Password Generator" />
+        <a href="https://github.com/Haguermeister/House-show">
+          <img src={hsscImage} className="portImg" alt="House show" />
         </a>
 
         <a href="https://github.com/Haguermeister/stack-overeats">
