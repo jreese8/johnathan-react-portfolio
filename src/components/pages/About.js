@@ -5,7 +5,7 @@ import emailImage from '../../assets/images/email.png';
 import githubImage from '../../assets/images/github.png';
 import linkImage from '../../assets/images/linkedin.png';
 import phoneImage from '../../assets/images/phone.png';
-import fbImage from '../../assets/images/facebook.png';
+import resImage from '../../assets/images/resume.png';
 
 function About() {
   return (
@@ -23,6 +23,7 @@ function About() {
         I was initially studying veterinary medicine in Saint Kitts, an island in the Caribbean, 
         which is shown in the image behind.
         <br/>   
+        <br/>
         I was only three months into the program when the COVID pandemic hit.
         Due to the difficulties of international travel and the unforeseeable end of the pandemic,
         I have made the switch from studying medicine to studying code. It was a bit daunting making this huge leap, 
@@ -32,7 +33,7 @@ function About() {
 
       <footer>
 
-        <section id="contactImages">
+        <section>
 
           <a href="mailto:johnathanreese8@gmail.com">
             <img src={emailImage} alt="Email" />
@@ -50,8 +51,8 @@ function About() {
             <img src={phoneImage} alt="Phone Number" />
           </a>
 
-          <a href="https://www.facebook.com/johnathan.reese.98">
-            <img src={fbImage} alt="Facebook" />
+          <a href="https://drive.google.com/file/d/10-bIb-xhxwbIH_sdxkBEIknO9x2HSdKM/view?usp=sharing">
+            <img src={resImage} alt="Resume" />
           </a>
 
         </section>

@@ -3,15 +3,12 @@ import React from 'react';
 import cctImage from '../../assets/images/cct.png';
 import soeImage from '../../assets/images/soe.png';
 import hsscImage from '../../assets/images/hssc.png';
-import wdsImage from '../../assets/images/WDSsc.png';
-import noteImage from '../../assets/images/notesc.png';
-import pwaImage from '../../assets/images/pwabt.png';
 
 import emailImage from '../../assets/images/email.png';
 import githubImage from '../../assets/images/github.png';
 import linkImage from '../../assets/images/linkedin.png';
 import phoneImage from '../../assets/images/phone.png';
-import fbImage from '../../assets/images/facebook.png';
+import resImage from '../../assets/images/resume.png';
 
 function Portfolio() {
   return (
@@ -23,31 +20,19 @@ function Portfolio() {
           <img src={cctImage} className="portImg" alt="Cocky Cocktails" />
         </a>
 
-        <a href="https://github.com/Haguermeister/House-show">
-          <img src={hsscImage} className="portImg" alt="House show" />
-        </a>
-
         <a href="https://github.com/Haguermeister/stack-overeats">
           <img src={soeImage} className="portImg" alt="Stack Overeats" />
         </a>
 
-        <a href="https://github.com/jreese8/PWA-Budget-Tracker">
-          <img src={pwaImage} className="portImg" alt="Budget Tracker" />
-        </a>
-
-        <a href="https://github.com/jreese8/Work-Day-Scheduler">
-          <img src={wdsImage} className="portImg" alt="Work Day Scheduler" />
-        </a>
-        
-        <a href="https://github.com/jreese8/note-taker">
-          <img src={noteImage} className="portImg" alt="Note Taker" />
+        <a href="https://github.com/Haguermeister/House-show">
+          <img src={hsscImage} className="portImg" alt="House show" />
         </a>
 
       </div>
 
       <footer>
 
-        <section id="contactImages">
+        <section>
 
           <a href="mailto:johnathanreese8@gmail.com">
             <img src={emailImage} alt="Email" />
@@ -65,8 +50,8 @@ function Portfolio() {
             <img src={phoneImage} alt="Phone Number" />
           </a>
 
-          <a href="https://www.facebook.com/johnathan.reese.98">
-            <img src={fbImage} alt="Facebook" />
+          <a href="https://drive.google.com/file/d/10-bIb-xhxwbIH_sdxkBEIknO9x2HSdKM/view?usp=sharing">
+            <img src={resImage} alt="Resume" />
           </a>
 
         </section>
