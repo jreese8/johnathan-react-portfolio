@@ -43,7 +43,7 @@ function ContactForm() {
   };
 
   return (
-    <section className="section">
+    <section className="sect-Contact">
       <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
@@ -68,7 +68,7 @@ function ContactForm() {
 
       <footer>
 
-        <section>
+        <section className='pt-5'>
 
           <a href="mailto:johnathanreese8@gmail.com">
             <img src={emailImage} alt="Email" />
