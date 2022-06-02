@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
+
 import NavTabs from './NavTabs';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
+
+import Cocktails from './pages/Cocktails';
+import Overeats from './pages/Overeats';
+import HouseShow from './pages/HouseShow';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -14,6 +19,15 @@ export default function PortfolioContainer() {
     }
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
+    }
+    if (currentPage === 'Cocktails') {
+      return <Cocktails />;
+    }
+    if (currentPage === 'Overeats') {
+      return <Overeats />;
+    }
+    if (currentPage === 'HouseShow') {
+      return <HouseShow />;
     }
     return <Contact />;
   };

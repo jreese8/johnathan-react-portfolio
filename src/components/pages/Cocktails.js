@@ -1,8 +1,6 @@
 import React from 'react';
 
-import cctImage from '../../assets/images/cct.png';
-import soeImage from '../../assets/images/soe.png';
-import hsscImage from '../../assets/images/hssc.png';
+import cctImage from '../../assets/images/cct.png'
 
 import emailImage from '../../assets/images/email.png';
 import githubImage from '../../assets/images/github.png';
@@ -10,24 +8,19 @@ import linkImage from '../../assets/images/linkedin.png';
 import phoneImage from '../../assets/images/phone.png';
 import resImage from '../../assets/images/resume.png';
 
-function Portfolio() {
+function Cocktails() {
   return (
     <section className="section">
 
-      <div>
+        <div className="portImg">
 
-        <a href="./Cocktails.js">
-          <img src={cctImage} className="portImg" alt="Cocky Cocktails" />
-        </a>
+          <img src={cctImage} alt="Cocky Cocktails" />
+      
+        </div>
 
-        <a href="./Overeats.js">
-          <img src={soeImage} className="portImg" alt="Stack Overeats" />
-        </a>
-
-        <a href="./HouseShow.js">
-          <img src={hsscImage} className="portImg" alt="House Show" />
-        </a>
-
+      <div className="text">
+        <p>
+        </p>
       </div>
 
       <footer>
@@ -62,4 +55,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Cocktails;
