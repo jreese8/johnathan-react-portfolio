@@ -1,20 +1,18 @@
- main {
-  margin: 0 auto;
-  max-width: 90%;
-  padding: 50px 30px;
+body,
+html,
+#root {
+  height: 100%;
 }
-
-:root {
-  --blue: #64abdf;
-  --green: #22784b;
-  --white: #fff;
- }
- 
- * {
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
-   }
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.main {
+  flex-grow: 1;
+  overflow: hidden;
+  overflow-y: auto;
+}
 
 html,
 body {
@@ -25,7 +23,6 @@ body {
   align-items: flex-start;
   background-attachment: fixed;
   background-position: 80%;
-  min-height: 100%;
   margin: 0;
   padding: 0;
   font-weight: 600;
@@ -33,65 +30,10 @@ body {
   font-size: 18px;
   letter-spacing: 0.1em;
   color: var(--green);
-  font-family: Arial, 'Calibri', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: Arial, 'Calibri', sans-serif;
-  font-weight: 500;
-  margin: 5px 0;
-  line-height: 1.25;
-}
-
-nav a:hover {
+.contacts a {
   text-decoration: none;
-}
-
-nav li {
-  cursor: pointer;
-}
-
-.section {
-  background: rgba(100, 171, 223, 0.5);
-  position: absolute;
-  margin: 2rem 2rem;
-  left: 0;
-  right: 0;
-  text-align: center;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  border-radius: 10px;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.sect-Contact {
-  background: rgba(100, 171, 223, 0.5);
-  text-align: center;
-  position: absolute;
-  margin: 2rem 2rem;
-  left: 0;
-  right: 0;
-  border-radius: 10px;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.meImage {
-  flex-basis: 40%;
-}
-
-.text {
-  font-size: 20px;
-  padding-left: 20px;
-  font-weight: bold;
-  text-align: left;
 }
 
 button {
@@ -114,9 +56,4 @@ button:hover {
 button[disabled] {
   cursor: default;
   opacity: 0.8;
-}
-
-.portImg {
-  margin: 20px;
-  border: 10px solid var(--green);
 }

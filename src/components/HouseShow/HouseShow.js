@@ -1,33 +1,25 @@
 import React from 'react';
-import meImage from '../../assets/images/me.JPG';
 
+import hsscImage from '../../assets/images/hssc.png'
 import emailImage from '../../assets/images/email.png';
 import githubImage from '../../assets/images/github.png';
 import linkImage from '../../assets/images/linkedin.png';
 import phoneImage from '../../assets/images/phone.png';
 import resImage from '../../assets/images/resume.png';
+import "./HouseShow.css";
 
-function About() {
+function HouseShow() {
   return (
     <section className="section">
 
-        <div className="meImage">
+        <div className="portImg">
 
-          <img src={meImage} style={{ width: "50%" }} alt="Johnathan Reese" />
+          <img src={hsscImage} alt="House Show" />
       
         </div>
 
       <div className="text">
         <p>
-        Hello! I am new to coding and excited for this new change!
-        I was initially studying veterinary medicine in Saint Kitts, an island in the Caribbean, 
-        which is shown in the image behind.
-        <br/>   
-        <br/>
-        I was only three months into the program when the COVID pandemic hit.
-        Due to the difficulties of international travel and the unforeseeable end of the pandemic,
-        I have made the switch from studying medicine to studying code. It was a bit daunting making this huge leap, 
-        but I have always loved video games and had interest in computer programming.
         </p>
       </div>
 
@@ -63,4 +55,4 @@ function About() {
   );
 }
 
-export default About;
+export default HouseShow;

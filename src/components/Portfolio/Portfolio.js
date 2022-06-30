@@ -1,25 +1,45 @@
 import React from 'react';
 
-import hsscImage from '../../assets/images/hssc.png'
+import cctImage from '../../assets/images/cct.png';
+import soeImage from '../../assets/images/soe.png';
+import hsscImage from '../../assets/images/hssc.png';
+
 import emailImage from '../../assets/images/email.png';
 import githubImage from '../../assets/images/github.png';
 import linkImage from '../../assets/images/linkedin.png';
 import phoneImage from '../../assets/images/phone.png';
 import resImage from '../../assets/images/resume.png';
 
-function HouseShow() {
+import {
+  Link
+} from "react-router-dom";
+
+import "./Portfolio.css";
+
+function Portfolio() {
   return (
     <section className="section">
-
-        <div className="portImg">
-
-          <img src={hsscImage} alt="House Show" />
       
-        </div>
+      <div className="">
 
-      <div className="text">
-        <p>
-        </p>
+        <Link
+            to={{ pathname: "/Cocktails" }}
+          >
+            <img src={cctImage} className="portImg" alt="Cocky Cocktails" />
+        </Link>
+
+        <Link
+            to={{ pathname: "/Overeats" }}
+          >
+            <img src={soeImage} className="portImg" alt="Overeats" />
+        </Link>
+
+        <Link
+            to={{ pathname: "Houseshow" }}
+          >
+            <img src={hsscImage} className="portImg" alt="House Show" />
+        </Link>
+
       </div>
 
       <footer>
@@ -54,4 +74,4 @@ function HouseShow() {
   );
 }
 
-export default HouseShow;
+export default Portfolio;

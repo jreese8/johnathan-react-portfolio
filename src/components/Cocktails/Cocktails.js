@@ -7,6 +7,7 @@ import githubImage from '../../assets/images/github.png';
 import linkImage from '../../assets/images/linkedin.png';
 import phoneImage from '../../assets/images/phone.png';
 import resImage from '../../assets/images/resume.png';
+import "./Cocktails.css";
 
 function Cocktails() {
   return (
