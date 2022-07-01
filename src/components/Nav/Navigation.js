@@ -21,7 +21,7 @@ const Navigation = (props) => {
   return (
     <nav className="tab-nav navbar navbar-light" role="navigation">
       <Nav className="w-100">
-        <div className=" d-flex flex-row justify-content-around w-100">
+        <div className="d-flex flex-row justify-content-around w-100">
           {tabs.map((tab, index) => (
             <NavItem key={`tab-${index}`}>
               <NavLink

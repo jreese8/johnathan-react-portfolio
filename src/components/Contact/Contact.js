@@ -8,8 +8,6 @@ import linkImage from '../../assets/images/linkedin.png';
 import phoneImage from '../../assets/images/phone.png';
 import resImage from '../../assets/images/resume.png';
 
-import './Contact.css';
-
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
 
@@ -45,7 +43,7 @@ function ContactForm() {
   };
 
   return (
-    <section className="sect-Contact">
+    <section className="section">
       <h1 data-testid="h1tag">Contact me</h1>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>

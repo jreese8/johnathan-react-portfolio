@@ -14,13 +14,9 @@ import {
   Link
 } from "react-router-dom";
 
-import "./Portfolio.css";
-
 function Portfolio() {
   return (
     <section className="section">
-      
-      <div className="">
 
         <Link
             to={{ pathname: "/Cocktails" }}
@@ -39,8 +35,6 @@ function Portfolio() {
           >
             <img src={hsscImage} className="portImg" alt="House Show" />
         </Link>
-
-      </div>
 
       <footer>
 
