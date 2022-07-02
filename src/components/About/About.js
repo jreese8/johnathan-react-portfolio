@@ -14,29 +14,53 @@ function About() {
 
         <div className="image">
 
-          <img src={meImage} alt="Johnathan Reese" />
+          <img src={meImage} style={{ width: "80%" }} alt="Johnathan Reese" />
       
         </div>
 
         <div className="text">
+          <pre>
+          </pre>
           <p>
-          Hello! I am new to coding and excited for this new change!
-          I was initially studying veterinary medicine in Saint Kitts, an island in the Caribbean, 
-          which is shown in the image behind.
-          <br/>   
-          <br/>
-          I was only three months into the program when the COVID pandemic hit.
-          Due to the difficulties of international travel and the unforeseeable end of the pandemic,
-          I have made the switch from studying medicine to studying code. It was a bit daunting making this huge leap, 
-          but I have always loved video games and had interest in computer programming.
+          Hello! I am Johnathan, a Fullstack Web Developer that has earned a Certificate from the University of Richmond’s Fullstack Coding Bootcamp.  
+          <pre>
+          </pre>
+          Initially, I was studying veterinary medicine in Saint Kitts, an island in the Caribbean, which is shown in the image behind. 
+          However, due to COVID and an unfortunate injury, I switched from studying veterinary medicine to studying code.
+          <pre>
+          </pre>
+          It was a bit daunting making this huge leap, but I have always loved video games and had interest in computer programming. 
+          Nonetheless, it has been an incredible change for the better!
+          <pre>
+          </pre>
+          I enjoy designing and creating responsive websites. 
+          It is also rewarding when I am able to solve an issue after a bit of research. I look forward to the future as a web developer!
           </p>
         </div>
 
       </div>
 
+      <div className="skills">
+        <pre>
+        </pre>
+        <h2>
+          Technical Skills
+        </h2>
+        <pre>
+        </pre>
+          Databases: MySQL, NoSQL, MongoDB
+        <pre>
+        </pre>
+          Languages: JavaScript, CSS, HTML, React
+        <pre>
+        </pre>
+          Tools: Bootstrap, Bulma, jQuery, Express,
+          Insomnia, Git, Heroku, Node, GraphQL, MVC, ORM, OOP
+      </div>
+
       <footer>
 
-        <section>
+        <section className="Contacts">
 
           <a href="mailto:johnathanreese8@gmail.com">
             <img src={emailImage} alt="Email" />

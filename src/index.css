@@ -25,6 +25,10 @@ body {
   display: flex;
   flex-direction: row;
   }
+
+.Contacts {
+  padding-top: 15px;
+}
   
 button {
   font-size: 1rem;
@@ -62,14 +66,20 @@ button[disabled] {
 .image {
   width: 50%;
   height: 50%;
+  filter: drop-shadow(5px 5px 5px #fff);
 }
 
 .text {
   font-size: 18px;
-  padding-left: 20px;
   font-weight: bold;
   width: 80%;
   }
+
+.skills {
+  font-size: 18px;
+  padding-left: 20px;
+  font-weight: bold;
+}
 
 .nav-link {
   color: #000;
@@ -111,5 +121,30 @@ a:hover {
 }
 
 .divLink {
-  display: inline;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   }
+
+@media screen and (max-width: 900px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image {
+    margin: auto;
+    text-align: center;
+  }
+
+  .text {
+    text-align: center;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .text {
+    font-size: 15px;
+  }
+}

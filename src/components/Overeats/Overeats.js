@@ -23,10 +23,8 @@ function Overeats() {
 
           <p>
           An application that allows users to track their calories consumed and calories burned. Users can log in to update and track their progress. Once the goal has been reached, the progress wheel will turn gold.
-    
-          <br>
-          </br>
-
+          <pre>
+          </pre>
           Tools: HTML, CSS, JavaScript, Chart.js, MySQL, Sequelize, Node, Handlebars, Express, Heroku, Insomnia.
           </p>
 
@@ -48,7 +46,7 @@ function Overeats() {
 
       <footer>
 
-        <section>
+        <section className="Contacts">
 
           <a href="mailto:johnathanreese8@gmail.com">
             <img src={emailImage} alt="Email" />

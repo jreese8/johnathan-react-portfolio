@@ -20,11 +20,15 @@ function Cocktails() {
         </div>
 
         <div className="text">
-
+          <pre>
+          </pre>
           <p>
-              An application that allows users to enter different ingredients that will then provide a list of drinks that are made from a combination of those ingredients. After selecting the drink of their choice, the user is then provided with a corresponding YouTube video showcasing the creation of the drink.
-          <br>
-          </br>
+              An application that allows users to enter different ingredients that will then provide a list of drinks that are made from a combination of those ingredients. 
+          <pre>
+          </pre>
+              After selecting the drink of their choice, the user is then provided with a corresponding YouTube video showcasing the creation of the drink.
+          <pre>
+          </pre>
               Tools: HTML, CSS, JavaScript, Bulma, FontsAwesome, Cocktails DB API, YouTube API.
           </p>
 
@@ -46,7 +50,7 @@ function Cocktails() {
 
       <footer>
 
-        <section>
+        <section className="Contacts">
 
           <a href="mailto:johnathanreese8@gmail.com">
             <img src={emailImage} alt="Email" />

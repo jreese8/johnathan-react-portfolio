@@ -20,11 +20,12 @@ function HouseShow() {
         </div>
 
         <div className="text">
-
+          <pre>
+          </pre>
           <p>
             An application that allows musical artists to book venues and hosts of venues to book artists. Users are able to search for artists or venues using the explore page. Searches can be filtered by cost or genre of music, etc.
-          <br>
-          </br>
+          <pre>
+          </pre>
             Tools: React, MongoDB, Express, CSS, Node, graphQL, Heroku, Bootstrap.
           </p>
 
@@ -46,7 +47,7 @@ function HouseShow() {
 
       <footer>
 
-        <section>
+        <section className="Contacts">
 
           <a href="mailto:johnathanreese8@gmail.com">
             <img src={emailImage} alt="Email" />
