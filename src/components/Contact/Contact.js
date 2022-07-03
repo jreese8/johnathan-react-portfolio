@@ -82,11 +82,11 @@ function ContactForm() {
             <img src={linkImage} alt="LinkedIn" />
           </a>
 
-          <a href="804-413-1081">
+          <a href="tel:804-413-1081">
             <img src={phoneImage} alt="Phone Number" />
           </a>
 
-          <a href="https://drive.google.com/file/d/10-bIb-xhxwbIH_sdxkBEIknO9x2HSdKM/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/1xCidEq7UMR5-0JJFilLbmzIM4Wt-XcSX/view?usp=sharing">
             <img src={resImage} alt="Resume" />
           </a>
 
