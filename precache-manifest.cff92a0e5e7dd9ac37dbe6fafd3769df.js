@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "070ff25963bc26e86cc2",
-    "url": "/johnathan-react-portfolio/static/css/main.e04d1e13.chunk.css"
+    "revision": "c7ebb47fe540083f2396",
+    "url": "/johnathan-react-portfolio/static/css/main.2448b7b9.chunk.css"
   },
   {
-    "revision": "070ff25963bc26e86cc2",
-    "url": "/johnathan-react-portfolio/static/js/main.070ff259.chunk.js"
+    "revision": "c7ebb47fe540083f2396",
+    "url": "/johnathan-react-portfolio/static/js/main.c7ebb47f.chunk.js"
   },
   {
     "revision": "325ca37fb911515c36cd",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/johnathan-react-portfolio/static/media/hero-bg.d80e6b1c.jpg"
   },
   {
-    "revision": "85399ed70b07989cfc49be79c0efdbc2",
+    "revision": "92ceeb8d546aa105de5bcb0c8402249b",
     "url": "/johnathan-react-portfolio/index.html"
   }
 ];
