@@ -9,11 +9,11 @@ import Overeats from '../Overeats/Overeats';
 import HouseShow from '../HouseShow/HouseShow';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('/');
 
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
-    if (currentPage === 'About') {
+    if (currentPage === '/') {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
