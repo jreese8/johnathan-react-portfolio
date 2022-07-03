@@ -10,7 +10,7 @@ import HouseShow from './components/HouseShow/HouseShow';
 
 function App() {
   return (
-      <Router>
+      <Router basename={process.env.PUBLIC_URL}>
         <div className="wrapper">
           <main className="main">
             <Switch>
