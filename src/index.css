@@ -4,18 +4,6 @@
   --white: #fff;
  }
 
-.wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-}
-
-.main {
-  flex-grow: 1;
-  overflow: hidden;
-  overflow-y: auto;
-}
-
 html,
 body {
   background-image: url('./assets/images/hero-bg.jpg');
