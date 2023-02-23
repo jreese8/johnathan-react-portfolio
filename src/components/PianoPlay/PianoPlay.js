@@ -34,11 +34,11 @@ function PianoPlay() {
 
           <div className="divLink">
     
-            <a className="links" href="https://github.com/whosshazo/cocktail-project">
+            <a className="links" href="https://github.com/jreese8/piano-test-sitet">
                 Repo
             </a>
             
-            <a className="links" href="https://whosshazo.github.io/cocktail-project/">
+            <a className="links" href="https://jreese8.github.io/piano-test-site/">
                 Live
             </a>
             
