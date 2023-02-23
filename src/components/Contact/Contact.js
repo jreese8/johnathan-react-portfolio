@@ -1,100 +1,32 @@
-import React, { useState } from 'react';
-
-import { validateEmail } from '../../utils/helpers';
-
-import emailImage from '../../assets/images/email.png';
-import githubImage from '../../assets/images/github.png';
-import linkImage from '../../assets/images/linkedin.png';
-import phoneImage from '../../assets/images/phone.png';
-import resImage from '../../assets/images/resume.png';
+import React from 'react';
 
 function ContactForm() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-
-  const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
-    }
-  };
-
-  const handleChange = (e) => {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
-      } else {
-        setErrorMessage('');
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Handle Form', formState);
-    }
-  };
-
   return (
-    <section className="section">
-      <h1 data-testid="h1tag">Contact me</h1>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <button data-testid="button" type="submit">Submit</button>
-      </form>
+    
+      <div className="manyForms">
+          <h1>Contact Us</h1>
+  
+          <form target="_blank" action="https://formsubmit.co/905dfbcbc473117283581859ec676ab6" method="POST">
 
-      <footer>
+                <div className="pt-3">
+                  <input type="text" name="name" className="form-control" placeholder="Your Name" required/>
+                </div>
+        
+                <div className="pt-3">
+                  <input type="email" name="email" className="form-control" placeholder="Email Address" required/>
+                </div>
 
-        <section className='pt-5'>
+            <div className="pt-3">
+              <textarea placeholder="Your Message" className="form-control" name="message" rows="10" required></textarea>
+            </div>
 
-          <a href="mailto:johnathanreese8@gmail.com">
-            <img src={emailImage} alt="Email" />
-          </a>
+            <div className="pt-3">
+              <button type="submit">Submit</button>
+            </div>
 
-          <a href="https://github.com/jreese8">
-            <img src={githubImage} alt="Github" />
-          </a>
-
-          <a href="https://www.linkedin.com/in/johnathan-reese-2892a3235/">
-            <img src={linkImage} alt="LinkedIn" />
-          </a>
-
-          <a href="tel:804-413-1081">
-            <img src={phoneImage} alt="Phone Number" />
-          </a>
-
-          <a href="https://drive.google.com/file/d/1xCidEq7UMR5-0JJFilLbmzIM4Wt-XcSX/view?usp=sharing">
-            <img src={resImage} alt="Resume" />
-          </a>
-
-        </section>
-
-      </footer>
-
-    </section>
+          </form>
+      </div>
+   
   );
 }
 

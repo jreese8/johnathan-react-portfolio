@@ -1,7 +1,7 @@
 # johnathan-react-portfolio
 
 ## Description
-  My updated portfolio, built with React.
+  UNDER RECONSTRUCTION
 
 
 ## Table of Contents
@@ -11,8 +11,8 @@
   
 
   ## Website
-  https://jreese8.github.io/johnathan-react-portfolio/
+  TBA
 
 
   ## Screenshot
-  <img src="./src/assets/images/reactSC.png">
+  
