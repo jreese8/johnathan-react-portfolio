@@ -1,12 +1,12 @@
 import React from 'react';
 
-import petiSCImage from '../../assets/images/petiSC.png';
-import shadowSCImage from '../../assets/images/shadowSC.png';
-import pianoImage from '../../assets/images/piano.png';
+import petiSCImage from '../../assets/petiSC.png';
+import shadowSCImage from '../../assets/shadowSC.png';
+import pianoImage from '../../assets/piano.png';
 
-import cctImage from '../../assets/images/cct.png';
-import soeImage from '../../assets/images/soe.png';
-import hsscImage from '../../assets/images/hssc.png';
+import cctImage from '../../assets/cct.png';
+import soeImage from '../../assets/soe.png';
+import hsscImage from '../../assets/hssc.png';
 
 import {
   Link

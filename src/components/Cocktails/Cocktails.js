@@ -1,19 +1,19 @@
 import React from 'react';
-
-import cctImage from '../../assets/images/cct.png'
+import { Button } from 'reactstrap';
+import cctImage from '../../assets/cct.png'
 
 function Cocktails() {
   return (
 
-      <div className="">
+      <div className="d-flex flex-row">
 
-        <div className="image">
+        <div className="text-center mx-auto">
 
-          <img src={cctImage} style={{ width: "80%" }} alt="Cocky Cocktails" />
+          <img src={cctImage} style={{ width: "80%" }} className="rounded img-thumbnail" alt="Cocky Cocktails" />
       
         </div>
 
-        <div className="text">
+        <div className="text-center mx-auto fs-3">
           <pre>
           </pre>
           <p>
@@ -26,14 +26,14 @@ function Cocktails() {
               Tools: HTML, CSS, JavaScript, Bulma, FontsAwesome, Cocktails DB API, YouTube API.
           </p>
 
-          <div className="divLink">
+          <div className="d-flex fex-row justify-content-around">
     
-            <a className="links" href="https://github.com/whosshazo/cocktail-project">
-                Repo
+            <a href="https://github.com/whosshazo/cocktail-project">
+                <Button className="btn-outline-primary">Repo</Button>
             </a>
             
-            <a className="links" href="https://whosshazo.github.io/cocktail-project/">
-                Live
+            <a href="https://whosshazo.github.io/cocktail-project/">
+                <Button className="btn-outline-primary">Live</Button>
             </a>
             
           </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import hsscImage from '../../assets/images/hssc.png'
+import hsscImage from '../../assets/hssc.png'
 
 function HouseShow() {
   return (

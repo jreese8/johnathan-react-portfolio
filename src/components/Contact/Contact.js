@@ -1,9 +1,10 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 
-function ContactForm() {
+function ContactForm (props) {
   return (
     
-      <div className="manyForms">
+      <div className="text-center text-primary bg-light">
           <h1>Contact Us</h1>
   
           <form target="_blank" action="https://formsubmit.co/905dfbcbc473117283581859ec676ab6" method="POST">
@@ -21,7 +22,7 @@ function ContactForm() {
             </div>
 
             <div className="pt-3">
-              <button type="submit">Submit</button>
+              <Button className="btn btn-outline-primary" type="submit">Submit</Button>
             </div>
 
           </form>

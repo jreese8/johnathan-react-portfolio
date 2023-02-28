@@ -1,6 +1,6 @@
 import React from 'react';
 
-import pianoImage from '../../assets/images/piano.png'
+import pianoImage from '../../assets/piano.png'
 
 function PianoPlay() {
   return (

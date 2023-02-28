@@ -1,6 +1,6 @@
 import React from 'react';
 
-import petiSCImage from '../../assets/images/petiSC.png'
+import petiSCImage from '../../assets/petiSC.png'
 
 function PetIntelligent() {
   return (

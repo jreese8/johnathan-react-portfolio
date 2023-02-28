@@ -1,6 +1,6 @@
 import React from 'react';
 
-import soeImage from '../../assets/images/soe.png'
+import soeImage from '../../assets/soe.png'
 
 function Overeats() {
   return (

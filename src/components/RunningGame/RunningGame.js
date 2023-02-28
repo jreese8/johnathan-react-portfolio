@@ -1,19 +1,19 @@
 import React from 'react';
-
-import shadowSCImage from '../../assets/images/shadowSC.png';
+import { Button } from 'reactstrap';
+import shadowSCImage from '../../assets/shadowSC.png';
 
 function RunningGame() {
   return (
 
-      <div className="">
+      <div className="d-flex flex-row">
 
-        <div className="image">
+        <div className="text-center mx-auto">
 
-          <img src={shadowSCImage} style={{ width: "80%" }} alt="Shadow Running Game" />
+          <img src={shadowSCImage} style={{ width: "80%" }} className="rounded img-thumbnail" alt="Shadow Running Game" />
       
         </div>
 
-        <div className="text">
+        <div className="text-center mx-auto fs-3">
           <pre>
           </pre>
           <p>
@@ -26,14 +26,14 @@ function RunningGame() {
               Tools: HTML, CSS, JavaScript.
           </p>
 
-          <div className="divLink">
+          <div className="d-flex fex-row justify-content-around">
     
-            <a className="links" href="https://github.com/jreese8/running-game">
-                Repo
+            <a href="https://github.com/jreese8/running-game">
+                <Button className="btn btn-outline-primary">Repo</Button>
             </a>
             
             <a className="links" href="https://jreese8.github.io/running-game/">
-                Live
+                <Button className="btn btn-outline-primary">Live</Button>
             </a>
             
           </div>
