@@ -32,7 +32,7 @@ const Footer = () => {
             <img src={phoneImage} alt="Phone Number" />
           </a>
 
-          <a className="px-3" href="https://drive.google.com/file/d/1xCidEq7UMR5-0JJFilLbmzIM4Wt-XcSX/view?usp=sharing">
+          <a className="px-3" href="https://drive.google.com/file/d/12wWzyDyLQaE9ecsjp1SFqqvxQOa6S92_/view?usp=sharing">
             <img src={resImage} alt="Resume" />
           </a>
     </div>
