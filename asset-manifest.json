@@ -1,24 +1,19 @@
 {
-  "main.css": "/johnathan-react-portfolio/static/css/main.7337fc08.chunk.css",
-  "main.js": "/johnathan-react-portfolio/static/js/main.e88f52da.chunk.js",
-  "main.js.map": "/johnathan-react-portfolio/static/js/main.e88f52da.chunk.js.map",
-  "static/js/1.4f473d82.chunk.js": "/johnathan-react-portfolio/static/js/1.4f473d82.chunk.js",
-  "static/js/1.4f473d82.chunk.js.map": "/johnathan-react-portfolio/static/js/1.4f473d82.chunk.js.map",
-  "static/css/2.8459a02c.chunk.css": "/johnathan-react-portfolio/static/css/2.8459a02c.chunk.css",
-  "static/js/2.3fbe864f.chunk.js": "/johnathan-react-portfolio/static/js/2.3fbe864f.chunk.js",
-  "static/js/2.3fbe864f.chunk.js.map": "/johnathan-react-portfolio/static/js/2.3fbe864f.chunk.js.map",
-  "runtime~main.js": "/johnathan-react-portfolio/static/js/runtime~main.16eaf14a.js",
-  "runtime~main.js.map": "/johnathan-react-portfolio/static/js/runtime~main.16eaf14a.js.map",
-  "static/media/petiSC.png": "/johnathan-react-portfolio/static/media/petiSC.dbd525e5.png",
-  "static/media/shadowSC.png": "/johnathan-react-portfolio/static/media/shadowSC.df9aa39c.png",
-  "static/media/cct.png": "/johnathan-react-portfolio/static/media/cct.eee4df73.png",
-  "static/media/soe.png": "/johnathan-react-portfolio/static/media/soe.b9cf171a.png",
-  "static/media/hssc.png": "/johnathan-react-portfolio/static/media/hssc.1c9854d1.png",
-  "static/media/me.JPG": "/johnathan-react-portfolio/static/media/me.a371f112.JPG",
-  "static/media/index.css": "/johnathan-react-portfolio/static/media/hero-bg.d80e6b1c.jpg",
-  "static/css/main.7337fc08.chunk.css.map": "/johnathan-react-portfolio/static/css/main.7337fc08.chunk.css.map",
-  "static/css/2.8459a02c.chunk.css.map": "/johnathan-react-portfolio/static/css/2.8459a02c.chunk.css.map",
-  "index.html": "/johnathan-react-portfolio/index.html",
-  "precache-manifest.168a12859a1dbf3c4861778fe5fc16fd.js": "/johnathan-react-portfolio/precache-manifest.168a12859a1dbf3c4861778fe5fc16fd.js",
-  "service-worker.js": "/johnathan-react-portfolio/service-worker.js"
+  "files": {
+    "main.css": "/johnathan-react-portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/johnathan-react-portfolio/static/js/main.3a9f3b4e.js",
+    "static/media/shadowSC.png": "/johnathan-react-portfolio/static/media/shadowSC.037c33be48c918dbad91.png",
+    "static/media/cct.png": "/johnathan-react-portfolio/static/media/cct.1426ff5c8f3a13545273.png",
+    "static/media/hssc.png": "/johnathan-react-portfolio/static/media/hssc.4c573471cba6a0f7e518.png",
+    "static/media/soe.png": "/johnathan-react-portfolio/static/media/soe.b657afdb2d7302a22cee.png",
+    "static/media/petiSC.png": "/johnathan-react-portfolio/static/media/petiSC.2975af0a96380baa21ad.png",
+    "static/media/me.JPG": "/johnathan-react-portfolio/static/media/me.045ffc3a47fb2fdb6b3b.JPG",
+    "index.html": "/johnathan-react-portfolio/index.html",
+    "main.e6c13ad2.css.map": "/johnathan-react-portfolio/static/css/main.e6c13ad2.css.map",
+    "main.3a9f3b4e.js.map": "/johnathan-react-portfolio/static/js/main.3a9f3b4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.3a9f3b4e.js"
+  ]
 }
