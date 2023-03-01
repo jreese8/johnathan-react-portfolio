@@ -15,4 +15,4 @@
 
 
   ## Screenshot
-  <img src="./src/assets/reactPort.png">
+  <img src="./assets/reactPort.png">
