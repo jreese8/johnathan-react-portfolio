@@ -1,7 +1,7 @@
 # johnathan-react-portfolio
 
 ## Description
-  UNDER RECONSTRUCTION
+  React portfolio, styled completely with Bootstrap.
 
 
 ## Table of Contents
@@ -11,8 +11,8 @@
   
 
   ## Website
-  TBA
+  https://jreese8.github.io/johnathan-react-portfolio/
 
 
   ## Screenshot
-  
+  <img src="./src/assets/reactSC.png">

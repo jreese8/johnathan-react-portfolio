@@ -14,42 +14,43 @@ import {
 
 function Portfolio() {
   return (
-    <div>
+
+    <div className="text-center bg-light py-5">
 
         <Link
             to={{ pathname: "/Petintelligent" }}
           >
-            <img src={petiSCImage} className="portImg" alt="Pet Intelligent" />
+            <img src={petiSCImage} style={{ width: "30%" }} className="px-3" alt="Pet Intelligent" />
         </Link>
 
         <Link
             to={{ pathname: "/Runninggame" }}
           >
-            <img src={shadowSCImage} className="portImg" alt="Shadow Running Game" />
+            <img src={shadowSCImage} style={{ width: "30%" }} className="px-3" alt="Shadow Running Game" />
         </Link>
 
         <Link
             to={{ pathname: "/Pianoplay" }}
           >
-            <img src={pianoImage} className="portImg" alt="Piano Play" />
+            <img src={pianoImage} style={{ width: "30%" }} className="px-3" alt="Piano Play" />
         </Link>
 
         <Link
             to={{ pathname: "/Cocktails" }}
           >
-            <img src={cctImage} className="portImg" alt="Cocky Cocktails" />
+            <img src={cctImage} style={{ width: "30%" }} className="px-3" alt="Cocky Cocktails" />
         </Link>
 
         <Link
             to={{ pathname: "/Overeats" }}
           >
-            <img src={soeImage} className="portImg" alt="Overeats" />
+            <img src={soeImage} style={{ width: "30%" }} className="px-3" alt="Overeats" />
         </Link>
 
         <Link
             to={{ pathname: "/Houseshow" }}
           >
-            <img src={hsscImage} className="portImg" alt="House Show" />
+            <img src={hsscImage} style={{ width: "30%" }} className="px-3" alt="House Show" />
         </Link>
 
     </div>

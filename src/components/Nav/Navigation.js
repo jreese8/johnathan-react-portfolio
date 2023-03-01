@@ -5,25 +5,37 @@ import { Link } from 'react-router-dom';
 const Navigation = (props) => {
   return (
 
-      <nav className="navbar navbar-light" role="navigation">
+      <nav className="navbar bg-success" data-bs-theme="dark" role="navigation">
         <Nav className="w-100">
           <div className="d-flex justify-content-around w-100">
 
-            <Link className="" to="/">
-            Johnathan Reese
+            <h1 className='text-light'>
+              |
+            </h1>
+
+            <Link className="text-light text-decoration-none fs-3" to="/">
+            Johnathan Reese | About
             </Link>
 
-            <Link className='link' to="/">
-              About
-            </Link>
+            <h1 className='text-light'>
+              |
+            </h1>
 
-            <Link className='link' to="/shop">
+            <Link className='text-light text-decoration-none fs-3' to="/portfolio">
               Portfolio
             </Link>
 
-            <Link className='link' to="/contact">
+              <h1 className='text-light'>
+                |
+              </h1>
+
+            <Link className='text-light text-decoration-none fs-3' to="/contact">
               Contact
             </Link>
+
+            <h1 className='text-light'>
+              |
+            </h1>
 
           </div>
         </Nav>

@@ -23,6 +23,10 @@ function App() {
                 path="/" 
                 element={<About />} 
               />
+              <Route 
+                path="johnathan-react-portfolio" 
+                element={<About />} 
+              />
               <Route
                 path="/portfolio"
                 element={<Portfolio />}
