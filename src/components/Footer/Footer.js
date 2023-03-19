@@ -2,7 +2,6 @@ import React from 'react';
 import emailImage from '../../assets/email.png';
 import githubImage from '../../assets/github.png';
 import linkImage from '../../assets/linkedin.png';
-import phoneImage from '../../assets/phone.png';
 import resImage from '../../assets/resume.png';
 
 const Footer = () => {
@@ -28,11 +27,7 @@ const Footer = () => {
             <img src={linkImage} alt="LinkedIn" />
           </a>
 
-          <a className="px-3" href="tel:804-413-1081">
-            <img src={phoneImage} alt="Phone Number" />
-          </a>
-
-          <a className="px-3" href="https://drive.google.com/file/d/12wWzyDyLQaE9ecsjp1SFqqvxQOa6S92_/view?usp=sharing">
+          <a className="px-3" href="https://drive.google.com/file/d/12wWzyDyLQaE9ecsjp1SFqqvxQOa6S92_/view">
             <img src={resImage} alt="Resume" />
           </a>
     </div>
